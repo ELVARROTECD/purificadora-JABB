@@ -1,0 +1,453 @@
+
+
+
+
+
+
+<!DOCTYPE html>
+<html class="light" lang="es"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Purificadora JABB - Identidad Oficial</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#0088CC", // Bright water blue from logo
+                        "secondary": "#33A1DE", // Mid blue
+                        "navy": "#0A4D8C", // Deeper blue from logo
+                        "dark-navy": "#062F56", // Even darker for backgrounds
+                        "accent": "#25D366",
+                        "background-light": "#F0F9FF",
+                    },
+                    fontFamily: {
+                        "sans": ["Plus Jakarta Sans", "sans-serif"]
+                    }
+                },
+            },
+        }
+    </script>
+<style type="text/tailwindcss">
+        @layer base {
+            body {
+                @apply font-sans antialiased text-dark-navy bg-background-light scroll-smooth;
+            }
+        }
+        .parallax-bg {
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .glass-header {
+            @apply bg-white/95 backdrop-blur-md border-b border-blue-100;
+        }
+        .whatsapp-btn {
+            @apply flex items-center justify-center gap-2 bg-[#25D366] text-white hover:bg-[#20ba5a] transition-all duration-300 shadow-lg hover:shadow-[#25D366]/30;
+        }
+        .promo-banner {
+            @apply bg-navy text-white py-2 text-center text-sm font-bold tracking-wide;
+        }
+        .pricing-card-hover {
+            @apply transition-all duration-300 hover:scale-[1.05] hover:shadow-2xl hover:border-primary/50 cursor-pointer;
+        }
+        .brand-pattern {
+            background-image: radial-gradient(circle at 2px 2px, rgba(0, 136, 204, 0.05) 1px, transparent 0);
+            background-size: 32px 32px;
+        }
+        .water-wave-pattern {
+            background: radial-gradient(circle at 50% 50%, transparent 40%, rgba(0, 136, 204, 0.03) 100%);
+        }
+    </style>
+</head>
+<body class="selection:bg-primary selection:text-white">
+<div class="promo-banner">
+        ¡Hoy entrega rápida! 🚚💧
+    </div>
+<header class="sticky top-0 z-50 glass-header">
+<div class="max-w-[1280px] mx-auto px-6 sm:px-10 py-3 flex items-center justify-between">
+<div class="flex items-center gap-3">
+  <img
+    src="img/logo-jabb-team.png"
+    alt="JABB Team"
+    class="h-14 w-auto object-contain"
+  />
+</div>
+
+<nav class="hidden lg:flex items-center gap-8">
+<a class="text-sm font-semibold text-navy/70 hover:text-primary transition-colors" href="#inicio">Inicio</a>
+<a class="text-sm font-semibold text-navy/70 hover:text-primary transition-colors" href="#servicios">Servicios</a>
+<a class="text-sm font-semibold text-navy/70 hover:text-primary transition-colors" href="#precios">Precios</a>
+<a class="text-sm font-semibold text-navy/70 hover:text-primary transition-colors" href="#sucursales">Sucursal</a>
+<a class="text-sm font-semibold text-navy/70 hover:text-primary transition-colors" href="#contacto">Contacto</a>
+</nav>
+<div class="flex items-center gap-4">
+<a class="whatsapp-btn px-5 py-2.5 rounded-full text-sm font-bold" href="https://wa.me/526645727952" target="_blank">
+<svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L0 24l6.335-1.662c1.72.94 3.659 1.437 5.634 1.437h.005c6.558 0 11.894-5.335 11.897-11.893a11.821 11.821 0 00-3.48-8.413z"></path></svg>
+                    WhatsApp
+                </a>
+</div>
+</div>
+</header>
+<main>
+<section class="parallax-bg relative min-h-[85vh] flex items-center overflow-hidden" id="inicio" style='background-image: linear-gradient(to right, rgba(6, 47, 86, 0.9) 30%, rgba(6, 47, 86, 0.4) 100%), url("https://lh3.googleusercontent.com/aida-public/AB6AXuCGAcfgZKoz14nRHtqT5Re18bXkVwqdY-BC47TTZU7ygaBVNW-zLc0YzxjEY1Yi2rYv7673Yzcoro9jye_oEJSV2G92E8IpfnfKM97vpO7smbPp6i5kaSMDgbLiRaYxxMU48B594WeNYq9zMyuHtg-dokbpIv-gG9B2hKzVewhgcSW3eLQplmGCKawVnbOpXrZNfFEAEE-c_l-6ifdnY32UxjH0SfNCjXuxnLTl1cdfETnZQLJKHw40pVN9XLf42PRdwNNm5hCGYXo");'>
+<div class="absolute inset-0 opacity-10 pointer-events-none brand-pattern"></div>
+<div class="absolute -right-20 -top-20 w-96 h-96 bg-primary/20 rounded-full blur-3xl"></div>
+<div class="max-w-[1280px] mx-auto px-6 sm:px-10 w-full relative z-10">
+<div class="max-w-3xl space-y-8 py-20">
+<div class="inline-flex items-center gap-2 bg-white/10 backdrop-blur-md px-4 py-2 rounded-full border border-white/20">
+<span class="relative flex h-3 w-3">
+<span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary opacity-75"></span>
+<span class="relative inline-flex rounded-full h-3 w-3 bg-primary"></span>
+</span>
+<span class="text-white text-xs font-bold uppercase tracking-widest">Entrega inmediata garantizada</span>
+</div>
+<h1 class="text-white text-5xl md:text-7xl font-extrabold leading-[1.1] tracking-tight">
+                        Agua Purificada <span class="text-primary">Premium</span> para tu Bienestar.
+                    </h1>
+<p class="text-white/80 text-xl font-medium max-w-xl leading-relaxed">
+                        Tecnología de ultrafiltración avanzada con el sello de calidad JABB para llevar pureza total a tu hogar u oficina en Tijuana.
+                    </p>
+<div class="flex flex-wrap gap-5 pt-4">
+<a class="flex items-center justify-center px-10 py-5 bg-primary text-white rounded-xl font-bold text-lg hover:bg-navy transition-all shadow-xl shadow-primary/30" href="#cotizar">
+                            Pedir ahora
+                        </a>
+<a class="flex items-center justify-center px-10 py-5 bg-white/10 backdrop-blur-md border border-white/30 text-white rounded-xl font-bold text-lg hover:bg-white/20 transition-all" href="#precios">
+                            Ver Lista de Precios
+                        </a>
+</div>
+</div>
+</div>
+</section>
+<div class="bg-white py-8 border-b border-blue-50 relative overflow-hidden">
+<div class="max-w-[1280px] mx-auto px-6 flex flex-wrap justify-center md:justify-between items-center gap-8 relative z-10">
+<div class="flex items-center gap-3 text-navy font-bold">
+<span class="material-symbols-outlined text-primary">verified</span> Certificación Sanitaria
+                </div>
+<div class="flex items-center gap-3 text-navy font-bold">
+<span class="material-symbols-outlined text-primary">speed</span> Reparto veloz
+                </div>
+<div class="flex items-center gap-3 text-navy font-bold">
+<span class="material-symbols-outlined text-primary">eco</span> Libre de BPA
+                </div>
+<div class="flex items-center gap-3 text-navy font-bold">
+<span class="material-symbols-outlined text-primary">payments</span> Pago contra entrega
+                </div>
+</div>
+</div>
+<section class="max-w-[1280px] mx-auto px-6 py-32 relative" id="servicios">
+<div class="absolute inset-0 water-wave-pattern pointer-events-none opacity-50"></div>
+<div class="text-center space-y-4 mb-20 relative z-10">
+<h2 class="text-navy text-4xl md:text-5xl font-extrabold tracking-tight">Servicios Profesionales</h2>
+<div class="w-24 h-1.5 bg-primary mx-auto rounded-full"></div>
+<p class="text-navy/60 text-lg max-w-2xl mx-auto pt-2">Mantenemos los más altos estándares de higiene en cada etapa de nuestro proceso de purificación con sello JABB.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-10 relative z-10">
+<div class="group p-10 rounded-3xl bg-white border border-blue-50 hover:border-primary/30 transition-all duration-500 shadow-[0_10px_40px_-15px_rgba(0,136,204,0.08)] hover:shadow-2xl hover:shadow-primary/10">
+<div class="w-16 h-16 rounded-2xl bg-primary/5 flex items-center justify-center text-primary mb-8 group-hover:bg-primary group-hover:text-white transition-all duration-500">
+<span class="material-symbols-outlined text-4xl">water_drop</span>
+</div>
+<h3 class="text-2xl font-bold mb-4 text-navy">Llenado de Garrafón</h3>
+<p class="text-navy/60 leading-relaxed">Filtración por ósmosis inversa, carbón activado y purificación por luz UV para una pureza total.</p>
+<div class="mt-8 pt-8 border-t border-gray-50">
+<a class="text-primary font-bold flex items-center gap-2 group/link" href="#cotizar">Solicitar <span class="material-symbols-outlined transition-transform group-hover/link:translate-x-1">arrow_forward</span></a>
+</div>
+</div>
+<div class="group p-10 rounded-3xl bg-white border border-blue-50 hover:border-primary/30 transition-all duration-500 shadow-[0_10px_40px_-15px_rgba(0,136,204,0.08)] hover:shadow-2xl hover:shadow-primary/10">
+<div class="w-16 h-16 rounded-2xl bg-primary/5 flex items-center justify-center text-primary mb-8 group-hover:bg-primary group-hover:text-white transition-all duration-500">
+<span class="material-symbols-outlined text-4xl">shopping_bag</span>
+</div>
+<h3 class="text-2xl font-bold mb-4 text-navy">Garrafones Nuevos</h3>
+<p class="text-navy/60 leading-relaxed">Venta de envases de polietileno de alta densidad, resistentes y 100% libres de contaminantes.</p>
+<div class="mt-8 pt-8 border-t border-gray-50">
+<a class="text-primary font-bold flex items-center gap-2 group/link" href="#cotizar">Ver opciones <span class="material-symbols-outlined transition-transform group-hover/link:translate-x-1">arrow_forward</span></a>
+</div>
+</div>
+<div class="group p-10 rounded-3xl bg-white border border-blue-50 hover:border-primary/30 transition-all duration-500 shadow-[0_10px_40px_-15px_rgba(0,136,204,0.08)] hover:shadow-2xl hover:shadow-primary/10">
+<div class="w-16 h-16 rounded-2xl bg-primary/5 flex items-center justify-center text-primary mb-8 group-hover:bg-primary group-hover:text-white transition-all duration-500">
+<span class="material-symbols-outlined text-4xl">local_shipping</span>
+</div>
+<h3 class="text-2xl font-bold mb-4 text-navy">Entrega Corporativa</h3>
+<p class="text-navy/60 leading-relaxed">Programación de entregas para oficinas y negocios con facturación inmediata y atención prioritaria.</p>
+<div class="mt-8 pt-8 border-t border-gray-50">
+<a class="text-primary font-bold flex items-center gap-2 group/link" href="#cotizar">Cotizar plan <span class="material-symbols-outlined transition-transform group-hover/link:translate-x-1">arrow_forward</span></a>
+</div>
+</div>
+</div>
+</section>
+<section class="bg-dark-navy py-32 text-white overflow-hidden relative" id="cotizar">
+<div class="absolute top-0 right-0 w-1/2 h-full bg-primary/10 -skew-x-12 translate-x-1/4"></div>
+<div class="max-w-[1280px] mx-auto px-6 relative z-10">
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
+<div class="space-y-8">
+<h2 class="text-4xl md:text-5xl font-extrabold tracking-tight leading-tight">Cotiza tu pedido personalizado</h2>
+<p class="text-white/60 text-xl leading-relaxed">Déjanos tus datos y un asesor JABB te contactará para confirmar tu pedido.</p>
+<ul class="space-y-4">
+<li class="flex items-center gap-4 text-white/80">
+<span class="w-6 h-6 rounded-full bg-primary flex items-center justify-center text-white"><span class="material-symbols-outlined text-xs font-bold">check</span></span>
+                                Precios especiales por volumen
+                            </li>
+<li class="flex items-center gap-4 text-white/80">
+<span class="w-6 h-6 rounded-full bg-primary flex items-center justify-center text-white"><span class="material-symbols-outlined text-xs font-bold">check</span></span>
+                                Atención inmediata vía WhatsApp
+                            </li>
+</ul>
+</div>
+<div class="bg-white p-8 md:p-12 rounded-[2rem] shadow-2xl">
+<form class="space-y-5" onsubmit="enviarFormulario(event)">
+
+<div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+<div>
+<label class="block text-sm font-bold text-navy mb-2">Nombre completo</label>
+<input id="nombre" class="w-full px-5 py-4 rounded-xl border border-blue-100 text-navy focus:ring-2 focus:ring-primary focus:border-transparent transition-all outline-none" placeholder="Ej. Juan Pérez" type="text"/>
+</div>
+<div>
+<label class="block text-sm font-bold text-navy mb-2">Teléfono</label>
+<input id="telefono" class="w-full px-5 py-4 rounded-xl border border-blue-100 text-navy focus:ring-2 focus:ring-primary focus:border-transparent transition-all outline-none" placeholder="664 572 7952" type="tel"/>
+</div>
+</div>
+<div>
+<label class="block text-sm font-bold text-navy mb-2">Dirección de entrega</label>
+<input id="direccion" class="w-full px-5 py-4 rounded-xl border border-blue-100 text-navy focus:ring-2 focus:ring-primary focus:border-transparent transition-all outline-none" placeholder="Calle, número y colonia" type="text"/>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+<div>
+<label class="block text-sm font-bold text-navy mb-2">Número de garrafones</label>
+<input id="cantidad" class="w-full px-5 py-4 rounded-xl border border-blue-100 text-navy focus:ring-2 focus:ring-primary focus:border-transparent transition-all outline-none" min="1" type="number" value="1"/>
+</div>
+<div>
+<label class="block text-sm font-bold text-navy mb-2">Tipo de servicio</label>
+<select id="servicio" class="w-full px-5 py-4 rounded-xl border border-blue-100 text-navy focus:ring-2 focus:ring-primary focus:border-transparent transition-all outline-none">
+<option>Llenado a domicilio</option>
+<option>Compra de envase nuevo</option>
+<option>Servicio para empresas</option>
+</select>
+</div>
+</div>
+<button class="w-full bg-primary py-5 rounded-xl text-white font-extrabold text-lg hover:bg-navy transition-all shadow-xl shadow-primary/20 mt-4" type="submit">
+                                Enviar Cotización
+                            </button>
+</form>
+</div>
+</div>
+</div>
+</section>
+<section class="max-w-[1280px] mx-auto px-6 py-32" id="precios">
+  <div class="text-center mb-16">
+    <h2 class="text-navy text-4xl md:text-5xl font-extrabold mb-6">
+      Precio del Garrafón
+    </h2>
+    <p class="text-navy/60 font-medium">
+      Agua purificada de alta calidad al mejor precio
+    </p>
+  </div>
+
+  <div class="flex justify-center">
+    <div class="bg-white p-12 rounded-[2.5rem] border border-blue-50 flex flex-col items-center shadow-2xl max-w-md w-full">
+      
+      <h3 class="text-2xl font-bold mb-6 text-navy">
+        Garrafón 20 Litros
+      </h3>
+
+      <div class="flex items-baseline gap-2 mb-8">
+        <span class="text-6xl font-black text-primary">$25</span>
+        <span class="text-navy/40 font-semibold">MXN</span>
+      </div>
+
+      <ul class="space-y-4 mb-10 text-center">
+        <li class="flex items-center justify-center gap-3 font-medium text-navy/70">
+          <span class="material-symbols-outlined text-primary">done</span>
+          Agua purificada premium
+        </li>
+
+        <li class="flex items-center justify-center gap-3 font-medium text-navy/70">
+          <span class="material-symbols-outlined text-primary">done</span>
+          Envase sanitizado
+        </li>
+
+        <li class="flex items-center justify-center gap-3 font-medium text-navy/70">
+          <span class="material-symbols-outlined text-primary">done</span>
+          Entrega disponible
+        </li>
+      </ul>
+
+      <a href="#cotizar"
+        class="w-full py-5 rounded-2xl bg-primary text-white font-extrabold text-center hover:bg-navy transition-all shadow-xl shadow-primary/30">
+        Pedir ahora
+      </a>
+
+    </div>
+  </div>
+</section>
+
+<section class="bg-white py-32 border-t border-blue-50 relative overflow-hidden" id="sucursales">
+<div class="absolute bottom-0 left-0 w-64 h-64 bg-primary/5 rounded-full -translate-x-1/2 translate-y-1/2 blur-3xl"></div>
+<div class="max-w-[1280px] mx-auto px-6 relative z-10">
+<div class="text-center mb-20">
+<h2 class="text-navy text-4xl md:text-5xl font-extrabold tracking-tight">Nuestra Sucursal</h2>
+<p class="text-navy/60 text-lg mt-4">Visítanos en nuestra ubicación principal en Tijuana</p>
+</div>
+<div class="max-w-4xl mx-auto">
+<div class="bg-background-light p-10 md:p-14 rounded-[3rem] border border-blue-100 flex flex-col md:flex-row gap-12 items-center hover:shadow-2xl transition-all duration-500">
+<div class="w-24 h-24 rounded-3xl bg-primary flex items-center justify-center text-white shrink-0 shadow-xl shadow-primary/20">
+<span class="material-symbols-outlined text-5xl font-light">store</span>
+</div>
+<div class="space-y-6 flex-grow text-center md:text-left">
+<div>
+<h3 class="text-3xl font-extrabold text-navy mb-2">Sucursal Tijuana</h3>
+<p class="text-primary font-bold tracking-wide uppercase text-sm">Matriz &amp; Centro de Distribución JABB</p>
+</div>
+<div class="space-y-4">
+<p class="flex items-center justify-center md:justify-start gap-4 text-navy/80 text-lg">
+<span class="material-symbols-outlined text-primary">location_on</span> Av 20 de Noviembre 148, Hidalgo, 22056 Tijuana, B.C., México.
+                                </p>
+<p class="flex items-center justify-center md:justify-start gap-4 text-navy/80 text-lg">
+<span class="material-symbols-outlined text-primary">call</span> +52 664 572 7952
+                                </p>
+<p class="flex items-center justify-center md:justify-start gap-4 text-navy/80 text-lg">
+<span class="material-symbols-outlined text-primary">schedule</span> Lun - Sáb: 7:00 - 19:00
+                                </p>
+</div>
+<div class="pt-4">
+<a class="inline-flex items-center gap-3 px-10 py-4 bg-white border-2 border-primary rounded-2xl font-bold text-primary hover:bg-primary hover:text-white transition-all shadow-md" href="https://www.google.com/maps/search/?api=1&amp;query=Av+20+de+Noviembre+148+Hidalgo+22056+Tijuana+B.C.+México" target="_blank">
+                                    Ver en Google Maps <span class="material-symbols-outlined">open_in_new</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="max-w-[1280px] mx-auto px-6 py-32" id="contacto">
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
+<div class="space-y-10">
+<div class="space-y-4">
+<h2 class="text-4xl md:text-5xl font-extrabold tracking-tight text-navy">Atención Directa JABB</h2>
+<p class="text-navy/60 text-lg">Resolvemos tus dudas de inmediato a través de nuestros canales oficiales.</p>
+</div>
+<div class="space-y-6">
+<a class="whatsapp-btn w-full sm:w-auto px-10 py-5 rounded-2xl text-lg font-extrabold flex items-center justify-center gap-3" href="https://wa.me/526645727952" target="_blank">
+<svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L0 24l6.335-1.662c1.72.94 3.659 1.437 5.634 1.437h.005c6.558 0 11.894-5.335 11.897-11.893a11.821 11.821 0 00-3.48-8.413z"></path></svg>
+                            Escribir por WhatsApp
+                        </a>
+<a class="flex items-center justify-center w-full sm:w-auto px-10 py-5 rounded-2xl bg-white border-2 border-navy text-navy font-extrabold text-lg hover:bg-navy hover:text-white transition-all gap-3" href="tel:+526649334071">
+<span class="material-symbols-outlined">call</span> Llamar ahora
+                        </a>
+</div>
+</div>
+<div class="h-[450px] rounded-[2.5rem] overflow-hidden shadow-2xl relative border border-blue-50">
+  <img
+    src="img/sucursal-jabb.png"
+    alt="Sucursal JABB Tijuana"
+    class="w-full h-full object-cover"
+  />
+  <div class="absolute inset-0 bg-primary/10 pointer-events-none"></div>
+</div>
+
+</section>
+</main>
+<footer class="bg-dark-navy text-white py-20 relative overflow-hidden">
+<div class="absolute top-0 left-0 w-full h-full opacity-[0.03] pointer-events-none brand-pattern"></div>
+<div class="max-w-[1280px] mx-auto px-6 relative z-10">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-12 mb-16">
+<div class="col-span-1 md:col-span-2 flex flex-col gap-6">
+
+  <div class="flex items-center gap-4">
+    <div class="w-16 h-16 rounded-full bg-white flex items-center justify-center shadow-md">
+      <img
+        src="img/logo-jabb-team.png"
+        alt="JABB Team"
+        class="h-11 w-auto object-contain"
+      />
+    </div>
+
+    <div class="flex flex-col">
+      <span class="text-xl font-extrabold text-white leading-none">
+        JABB TEAM
+      </span>
+      <span class="text-[11px] font-semibold text-primary uppercase tracking-widest">
+        Purificadora de Agua
+      </span>
+    </div>
+  </div>
+
+  <p class="text-white/60 text-sm max-w-md leading-relaxed">
+    Agua purificada de alta calidad en Tijuana.
+    Tecnología moderna y servicio confiable.
+  </p>
+
+  <div class="flex flex-col gap-2">
+    <div class="flex items-center gap-3 text-white/70 text-sm font-medium">
+      <span class="material-symbols-outlined text-primary text-lg">call</span>
+      +52 664 572 7952
+    </div>
+
+    <div class="flex items-center gap-3 text-white/70 text-sm font-medium">
+      <span class="material-symbols-outlined text-primary text-lg">location_on</span>
+      Av 20 de Noviembre 148, Tijuana, B.C.
+    </div>
+  </div>
+
+</div>
+
+<div>
+<h4 class="font-bold text-lg mb-6 text-primary">Enlaces</h4>
+<ul class="space-y-4 text-white/50">
+<li><a class="hover:text-primary transition-colors" href="#inicio">Inicio</a></li>
+<li><a class="hover:text-primary transition-colors" href="#servicios">Servicios</a></li>
+<li><a class="hover:text-primary transition-colors" href="#precios">Precios</a></li>
+<li><a class="hover:text-primary transition-colors" href="#sucursales">Sucursal</a></li>
+</ul>
+</div>
+<div>
+<h4 class="font-bold text-lg mb-6 text-primary">Síguenos</h4>
+<div class="flex gap-4">
+<a class="w-12 h-12 rounded-full bg-white/5 flex items-center justify-center hover:bg-primary transition-all shadow-lg border border-white/10" href="https://www.facebook.com/share/18CmUT5mvM/" target="_blank">
+<svg class="size-6" fill="currentColor" viewBox="0 0 24 24"><path d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12c0 4.84 3.44 8.87 8 9.8V15H8v-3h2V9.5C10 7.57 11.57 6 13.5 6H16v3h-2c-.55 0-1 .45-1 1V12h3l-.5 3H13v6.8c4.56-.93 8-4.96 8-9.8z"></path></svg>
+</a>
+</div>
+</div>
+</div>
+<div class="pt-8 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-4 text-white/30 text-sm">
+<p>© 2024 Purificadora de Agua JABB. Todos los derechos reservados.</p>
+<div class="flex gap-8">
+<a class="hover:text-white transition-colors" href="#">Privacidad</a>
+<a class="hover:text-white transition-colors" href="#">Términos</a>
+</div>
+</div>
+</div>
+</footer>
+<a aria-label="WhatsApp" class="whatsapp-btn fixed bottom-8 right-8 z-[60] size-16 rounded-full flex items-center justify-center hover:scale-110 active:scale-90" href="https://wa.me/526645727952" target="_blank">
+<svg class="size-8" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L0 24l6.335-1.662c1.72.94 3.659 1.437 5.634 1.437h.005c6.558 0 11.894-5.335 11.897-11.893a11.821 11.821 0 00-3.48-8.413z"></path></svg>
+</a>
+<script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+
+<script>
+(function(){
+emailjs.init("Pu1zMMRqcvut1zcl-");
+})();
+
+function enviarFormulario(event) {
+event.preventDefault();
+
+emailjs.send("service_oslhp6e","template_2i6nd26",{
+nombre: document.getElementById("nombre").value,
+telefono: document.getElementById("telefono").value,
+direccion: document.getElementById("direccion").value,
+cantidad: document.getElementById("cantidad").value,
+servicio: document.getElementById("servicio").value
+})
+.then(function(response) {
+alert("Pedido enviado correctamente ✅");
+}, function(error) {
+alert("Error al enviar ❌");
+});
+}
+</script>
+
+</body></html>
